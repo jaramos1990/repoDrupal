@@ -1,0 +1,17 @@
+# Define a route for our event dispatching example.
+example_3.description:
+  path: 'example6'
+  defaults:
+    _controller: '\Drupal\example_6\Controller\ExampleController::build'
+    _title: 'Example 6 hello'
+  requirements:
+    _permission: 'example 6 access'
+
+
+example_3.description2:
+  path: 'example6-test'
+  defaults:
+    _controller: '\Drupal\example_6\Controller\Example2Controller::build'
+    _title: 'Example 6 hello prueba con 2º controlador'
+  requirements:
+     _permission: 'example 6 access'
